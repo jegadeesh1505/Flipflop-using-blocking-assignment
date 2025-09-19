@@ -51,16 +51,7 @@ endmodule
 
 ### JK Flip-Flop (Blocking)
 ```verilog
-module jk_ff (
-    input wire J, K, clk,
-    output reg Q
-);
-    always @(posedge clk) begin
 
-
-
-endmodule
-```
 ### JK Flip-Flop Test bench 
 ```verilog
 
